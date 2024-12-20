@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('background.desktop.day.1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 65vh;
+}
+.navbar-logo {
+    opacity: 1; /* Ensure full opacity */
+    filter: brightness(8.2); /* Brightens the image */
+    transition: filter 0.3s ease; /* Adds smooth transition */
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+
+.form-box {
+    width: 80%;
+    max-width: 385px;
+    background: white;
+    padding: 30px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.input-field {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 8px 0;
+    outline: none;
+    width: 100%;
+}
+
+
+.input-field input {
+    margin: 3px 0;
+    display: block;
+    background: transparent;
+    padding: 10px 5px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+
+.remember-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.item span {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.btn-field button {
+    width: 100%;
+    background: #005eb8;
+    color: white;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-field button:hover {
+    background: #00407b;
+}
+
+
+p a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #005eb8;
+}
+
+
+p a:hover {
+   
+}
+.show-password {
+    color: #005eb8;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+   
+}
+
+
+.show-password:hover {
+    color: #00407b;
+}
+    /* Styling the checkboxes and labels */
+.checkbox {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px; /* Add some space between checkbox and label */
+    cursor: pointer;
+}
+
+
+.item label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+/* Optional: Add some hover effects */
+.checkbox:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* Styling for the "Show" link */
+.show-password {
+    color: #005eb8;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+   font-weight: bold;
+}
+
+
+.show-password:hover {
+    color: #00407b;
+}
+.navbar {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+/* Logo container */
+.logo-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);  /* This will center the logo */
+    margin-top: 35px;  /* Move the logo down a bit */
+}
+.logo {
+    width: 205px;  /* Adjust the logo size as needed */
+    height: auto;
+}
+
+
+/* Footer Styling */
+.footer {
+    background-color: white; /* Dark background for footer */
+    color:white; /* White text color */
+    padding: 50px 0; /* Padding for top and bottom */
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.footer-links {
+    list-style-type: none; /* Remove default list styling */
+    display: flex;
+    flex-wrap: wrap; /* Allow the links to wrap to the next line */
+    justify-content: center; /* Center the links horizontally */
+    gap: 20px; /* Space between links */
+    text-decoration: underline;
+}
+
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+
+.footer-links a {
+    color: grey; /* White color for the links */
+    text-decoration: none; /* Remove underlines from links */
+    font-size: 11px; /* Font size for the links */
+    text-decoration: underline;
+}
+
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: grey; /* Change color on hover */
+}
+
+
+/* Optional: Add some spacing for larger screens */
+@media (min-width: 568px) {
+    .footer-links {
+        justify-content: space-evenly; /* Spread the links more evenly */
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .footer-links {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
