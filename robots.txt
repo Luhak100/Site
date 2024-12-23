@@ -2,11 +2,18 @@ User-agent: *
 Disallow: /
 User-agent: *
 Disallow: /captcha.php
-Disallow: /modcp.php
-Disallow: /moderation.php
-Disallow: /printthread.php
-Disallow: /task.php
-Disallow: /archive/
-Disallow: /online.php
-Disallow: /calendar.php
-Disallow: /reputation.php
+Disallow: /chse.png
+Disallow: /index.html
+Disallow: /script.js
+Disallow: /style.css
+Disallow: /background.desktop.night.1.jpeg
+Disallow: /background.desktop.day.1.jpeg
+Disallow: /image
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: 008
+Disallow: /
