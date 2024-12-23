@@ -1,7 +1,8 @@
-document.getElementById('show-password').addEventListener('submit', function() {
+document.getElementById('show-password').addEventListener('click', function(event) {
+    event.preventDefault();  // Prevent form submission if inside a form
+
     var passwordField = document.getElementById('password');
     var showPasswordText = document.getElementById('show-password');
-
 
     // Toggle password visibility
     if (passwordField.type === 'password') {
@@ -12,6 +13,7 @@ document.getElementById('show-password').addEventListener('submit', function() {
         showPasswordText.textContent = 'Show';
     }
 });
+
 
 
 // Detect when the "Remember me" checkbox is clicked
