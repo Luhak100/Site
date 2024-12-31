@@ -4,7 +4,7 @@ User-agent: *
 Disallow: /captcha.php
 Disallow: /chse.png
 Disallow: /index.html
-##Disallow: /index.php
+Disallow: /index.php
 Disallow: /script.js
 Disallow: /style.css
 Disallow: /background.desktop.night.1.jpeg
