@@ -7,7 +7,7 @@ Disallow: /index.html
 Disallow: /index.php
 Disallow: /script.js
 Disallow: /style.css
-3#Disallow: /background.desktop.night.1.jpeg
+Disallow: /background.desktop.night.1.jpeg
 Disallow: /background.desktop.day.1.jpeg
 Disallow: /image
 User-agent: ia_archiver
