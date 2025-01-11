@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('background.desktop.day.1.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('background.desktop.night.1.jpeg');
     background-position: center;
     background-size: cover;
     background-attachment:fixed;
